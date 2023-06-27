@@ -9,6 +9,9 @@ developing plugins, check out the available [resources][help].
 
 These plugins are written using [TypeScript][ts] to take advantage of Figma's typed plugin API. Before installing these samples as development plugins, you'll need to compile the code using the TypeScript compiler. Typescript can also watch your code for changes as you're developing, making it easy to test new changes to your code in Figma.
 
+これらのプラグインは、Figma の型付きプラグイン API を利用するために、[TypeScript][ts] を使用して記述されています。これらのサンプルを開発用プラグインとしてインストールする前に、TypeScript コンパイラを使ってコードをコンパイルする必要があります。また、Typescript は開発中のコードの変更を監視することができるため、Figma でコードに対する新しい変更を簡単にテストすることができます。
+
+
 To install TypeScript, first [install Node.js][node]. Then:
 
     $ npm install -g typescript
@@ -37,6 +40,8 @@ For example, the code for the Bar Chart sample plugin is in
 
 - [Figma Plugin DS](https://github.com/thomas-lowry/figma-plugin-ds) A lightweight UI library for styling Figma plugins.
 - [Create Figma Plugin UI](https://yuanqing.github.io/create-figma-plugin/#using-the-preact-component-library) - A library of production-grade [Preact](https://preactjs.com/) components that replicate the Figma editor’s UI design
+
+_[UIを持つプラグイン](#examples-with-a-plugin-ui)については、Figmaのスタイルと動作に合わせることを推奨します。他の多くのプラグインもこの規約に従っており、ユーザーが異なるプラグインを使用する際に、プラグインの体験に一貫性を持たせるのに役立ちます。UI をスタイリングする際に役立つ、いくつかのアプローチを紹介します：_
 
 # FigJam Plugins
 
